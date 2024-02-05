@@ -1,0 +1,117 @@
+.header-dates {
+    font-weight: bold;
+    color: #007BFF; /* Healthcare-blue color, you can replace it with your preferred color code */
+  }
+
+.navbar-nav > .nav-item > .active {
+    color: #007BFF !important;
+}
+
+.highlight {
+    color: #007BFF
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(0, 123, 255, 0.1);
+    border: solid rgba(0, 123, 255, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 123, 255, .1), inset 0 0.125em 0.5em rgba(0, 123, 255, .15);
+}
+
+
+.main-title > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.paragraph-text > p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.our-work > h3, .their-work > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.their-work > ul, .our-work > ul {
+    list-style: none;
+}
+
+
+.their-work > ul > li, .our-work > ul > li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bi-check-circle-fill {
+    fill: rgb(255, 0, 0),
+}
+
+.border-end, .border-start {
+    --bs-border-width: 4px;
+  }
+
+/* .image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+
+  .image-stack__item--top {
+    grid-column: 1 / span 8;
+    grid-row: 1; // must be on the same row as the other image
+    padding-top: 20%; // this pushes the image down, and keeps it proportional as it resizes
+    z-index: 1; // make this image render on top of the bottom
+  }
+
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1; // make this image be on the same row
+  } */
+
+
+  .test {
+    background-image: url('https://images.unsplash.com/photo-1559671216-bda69517c47f?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    min-height: 10rem;
+    width: auto;
+    background-size: cover;
+  }
+
+
+  .card {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .card:hover {
+    background-color: rgba(214, 214, 214, 0.05);
+    transform: scale(1.05);
+  }
+
+  .card-cover {
+    background-color: #007BFF !important;
+  }
+
+
+ 
+
+  .service-icon {
+    height: 50px;
+    width: auto;
+    margin-right: 5px
+  }
+
+
+  #services > h3 {
+    color: #007BFF;
+  }
