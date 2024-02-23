@@ -18,18 +18,18 @@
     height:100%;
     width: 100%;
     z-index: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#hero {
-    height: 80vh;
-}
+
 
 .opacity-80 {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     height: 100%;
-    width: 110%;
-    margin: 0px !important;
-    padding: 0;
+    width: 100%;
 }
 
 .b-example-divider {

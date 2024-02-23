@@ -119,14 +119,204 @@ which email is this going to?
 - make the buttons better -->
 
 
-  <div class="container py-4">
+<section id="hero-small" class="container-fluid d-sm-block d-md-none p-0" style="height: 130vh; background-image: url('assets/img/hero-image-mobile.png'); background-size: cover; background-position: bottom; background-repeat: norepeat;">
+  <div class="opacity-80">
+  <div class="row p-3" style="">
+    <h1 class="display-4 fw-bold lh-1 text-start text-white my-5">
+      Your <span class="highlight">Mississauga</span> Family Dentist
+      </h1>
+    <div class="col-lg-5 col-sm-10 mb-5 ">
+      <p class="col-lg-10 fs-3 text-white"> 
+        We provide exceptional family dental care for the residents of Mississauga.  
+        </p>
+        <p class="text-white">Give us a call, or fill out the form and we’ll contact you as soon as possible. </p>
+  </div>
+</div>
+    <div class="d-flex justify-content-center">
+
+      <form name="home_form" class="p-2 p-md-2 border rounded-4 bg-body-tertiary" method="POST" data-netlify="true" style="width: 100%;">
+        <div class="form-floating mb-3">
+            <input name="firstName" type="firstName" class="form-control" id="floatingInput"  placeholder="name@example.com" required>
+            <label for="floatingInput">First Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="lastName" type="lastName"  class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Last Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="phoneNumber" type="phoneNumber" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
+            <label for="floatingPassword">Phone Number (___) ___-____</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Anything we should know about?</label>
+        </div>
+
+        <div class="d-flex justify-content-center"> 
+            <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
+        </div>
+      </form>
+    </div>
+
+    </div>
+    
+    </div>
+  </div>
+
+
+</section>
+
+<section id="hero-big" class="container-fluid d-md-block d-none">
+  <div class="row" style="height: 50vh; background-image: url('assets/img/hero-image.jpeg'); background-size: cover; background-position: center; background-repeat: norepeat;">
+    <div class="col-8 opacity-80">
+      <h1 class="display-4 fw-bold lh-1 text-center text-white my-5 bordered-text">
+        Your <span class="highlight">Mississauga</span> Family Dentist
+        </h1>
+      <div class="col-lg-5 col-sm-10 mb-5 ms-5 ">
+        <p class="col-lg-10 fs-3 text-white"> 
+          We provide exceptional family dental care for the residents of Mississauga.  
+          </p>
+          <p class="text-white">Give us a call, or fill out the form and we’ll contact you as soon as possible. </p>
+          <div class="col-sm-12 d-flex justify-content-center">
+            <a href="tel:12899836977" class="mt-2 btn btn-lg btn-primary w-100" role="button"><i class="bi bi-telephone me-2"></i>1-289-983-6977</a>
+          </div>
+          <div class="col d-none d-lg-flex justify-content-center">
+              <a href="mailto:info@platinumdent.ca" class=" w-100 email-button mt-2 btn btn-lg btn-light" role="button"><i class="bi bi-envelope-at me-2"></i>info@platinumdent.ca</a>
+          </div>
+          <div class="col d-lg-none d-flex justify-content-center">
+              <a href="mailto:info@platinumdent.ca" class="w-100 email-button mt-2 btn btn-lg btn-light" role="button"><i class="bi bi-envelope-at me-2"></i>Email Me</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-4 bg-white">
+      
+      <div class="row" style="height: 50%; background-color: #6A8385;">
+        <div class="col mt-5">
+          <form name="home_form" class="p-2 p-md-2 border rounded-4 bg-body-tertiary" method="POST" data-netlify="true">
+            <div class="form-floating mb-3">
+                <input name="firstName" type="firstName" class="form-control" id="floatingInput"  placeholder="name@example.com" required>
+                <label for="floatingInput">First Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input name="lastName" type="lastName"  class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Last Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input name="phoneNumber" type="phoneNumber" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
+                <label for="floatingPassword">Phone Number (___) ___-____</label>
+            </div>
+    
+            <div class="form-floating mb-3">
+                <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Anything we should know about?</label>
+            </div>
+    
+                <div class="d-flex justify-content-center"> 
+                    <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
+                </div>
+          </form>
+
+        </div>
+   
+      </div>
+      <div class="row overflow-hidden" style="height: 50%; background-color: #93A9C4; overflow: hidden;"></div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<!-- <section id="hero" class="container-fluid  p-0">
+  <div class="opacity-80 background-image-test">
+    <div class="row d-flex justify-content-center align-items-center ">
+    <h1 class="display-4 fw-bold lh-1 text-center text-white my-5">
+      Your <span class="highlight">Mississauga</span> Family Dentist
+      </h1>
+    <div class="col-lg-5 col-sm-10 mb-5 ">
+      <p class="col-lg-10 fs-3 text-white"> 
+        We provide exceptional family dental care for the residents of Mississauga.  
+        </p>
+        <p class="text-white">Give us a call, or fill out the form and we’ll contact you as soon as possible. </p>
+        <div class="col-sm-12 d-flex justify-content-center">
+          <a href="tel:12899836977" class="mt-2 btn btn-lg btn-primary w-50" role="button"><i class="bi bi-telephone me-2"></i>1-289-983-6977</a>
+        </div>
+        <div class="col d-none d-lg-flex justify-content-center">
+            <a href="mailto:info@platinumdent.ca" class=" w-50 email-button mt-2 btn btn-lg btn-light" role="button"><i class="bi bi-envelope-at me-2"></i>info@platinumdent.ca</a>
+        </div>
+        <div class="col d-lg-none d-flex justify-content-center">
+            <a href="mailto:info@platinumdent.ca" class="w-50 email-button mt-2 btn btn-lg btn-light" role="button"><i class="bi bi-envelope-at me-2"></i>Email Me</a>
+        </div>
+    </div>
+    <div class="col-2"></div>
+    <div class="col-lg-3 col-sm-10">
+      <form name="home_form" class="p-2 p-md-2 border rounded-4 bg-body-tertiary" method="POST" data-netlify="true">
+        <div class="form-floating mb-3">
+            <input name="firstName" type="firstName" class="form-control" id="floatingInput"  placeholder="name@example.com" required>
+            <label for="floatingInput">First Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="lastName" type="lastName"  class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Last Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name="phoneNumber" type="phoneNumber" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
+            <label for="floatingPassword">Phone Number (___) ___-____</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Anything we should know about?</label>
+        </div>
+
+            <div class="d-flex justify-content-center"> 
+                <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
+            </div>
+      </form>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center mt-5">
+      <div class="col-10 testimonial-quote group right">
+        <img src="assets/testimonial/spencer-m.png">
+        <div class="quote-container">
+            <div>
+                <blockquote>
+                    <p style="color: white">Overall, fantastic! Extremely welcoming, incredibly patient, and thoroughly professional. Not just the best dentist in Erin Mills, but maybe the best dentist in Mississauga!"</p>
+                </blockquote>  
+                <cite><span style="color: white">Spencer MacDonald</span><br>
+                  <a href="https://maps.app.goo.gl/dZmFSzFQdaczTqxHA">Google Review</a>
+
+                </cite>
+            </div>
+        </div>
+    </div>     
+  </div> 
+  </div>
+  
+</section> -->
+
+
+  <!-- <div class="container py-4">
     <div class="row align-items-center g-lg-5 px-lg-5">
       <div class="col-12">
         <h1 class="display-4 fw-bold lh-1 text-body-emphasis text-center">
           Your <span class="highlight">Mississauga</span> Family Dentist
           </h1>
       </div>
-      <div class="col-lg-12 mb-sm-3 text-start">
+      <div class="col-lg-6  mb-sm-3 text-start">
            <p class="col-lg-10 fs-3"> 
             We provide exceptional family dental care for the residents of Mississauga.  
             </p>
@@ -193,7 +383,7 @@ which email is this going to?
           </div>
       </div>     
     </div> 
-  </div>
+  </div> -->
 
 
 
