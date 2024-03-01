@@ -258,14 +258,7 @@ h1 {
     position: relative; 
 }
 
-.testimonial-quote .quote-container {
-    padding-left: 160px; 
-}
-  
-.testimonial-quote.right .quote-container {
-    padding-left: 0;
-    padding-right: 160px; 
-}
+
 
 .testimonial-quote.right img {
     left: auto;
@@ -276,6 +269,15 @@ h1 {
     text-align: right; 
 }
 
+
+.testimonial-quote.left cite {
+    text-align: left; 
+}
+
+.testimonial-quote.left img {
+    left: 0;
+    right: auto;
+}
 
 
 .img-container {
@@ -372,3 +374,45 @@ h1 {
     max-height: 60vh;
     min-width: 100%;
 }
+
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30%);
+    transition: all 1.5s;
+
+}
+
+.obscure {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 1.5s;
+}
+
+.obscure-card {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 2s;
+}
+
+.hidden-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30%);
+    transition: all 1.5s;
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+    .benefits2-header {
+      font-size: 2rem !important; /* Adjust the font size as needed */
+    }
+  }
