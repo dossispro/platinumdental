@@ -12,7 +12,7 @@
 }
 
 .background-image-test {
-    background-image: url('assets/img/hero-image.png');
+    background-image: url('assets/img/hero-image.webp');
     background-size: cover;
     background-position: center;
     height:100%;
