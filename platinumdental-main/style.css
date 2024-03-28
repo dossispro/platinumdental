@@ -1,0 +1,418 @@
+.header-dates {
+    font-weight: bold;
+    color: #007BFF; /* Healthcare-blue color, you can replace it with your preferred color code */
+  }
+
+.navbar-nav > .nav-item > .active {
+    color: #007BFF !important;
+}
+
+.highlight {
+    color: #007BFF
+}
+
+.background-image-test {
+    background-image: url('assets/img/hero-image.webp');
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.opacity-80 {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(0, 123, 255, 0.1);
+    border: solid rgba(0, 123, 255, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 123, 255, .1), inset 0 0.125em 0.5em rgba(0, 123, 255, .15);
+}
+
+
+.main-title > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.paragraph-text > p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.our-work > h3, .their-work > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.their-work > ul, .our-work > ul {
+    list-style: none;
+}
+
+
+.their-work > ul > li, .our-work > ul > li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bi-check-circle-fill {
+    fill: rgb(255, 0, 0),
+}
+
+.border-end, .border-start {
+    --bs-border-width: 4px;
+  }
+
+/* .image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+
+  .image-stack__item--top {
+    grid-column: 1 / span 8;
+    grid-row: 1; // must be on the same row as the other image
+    padding-top: 20%; // this pushes the image down, and keeps it proportional as it resizes
+    z-index: 1; // make this image render on top of the bottom
+  }
+
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1; // make this image be on the same row
+  } */
+
+
+  .test {
+    background-image: url('https://images.unsplash.com/photo-1559671216-bda69517c47f?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    min-height: 10rem;
+    width: auto;
+    background-size: cover;
+  }
+
+
+  .card {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .card:hover {
+    background-color: rgba(214, 214, 214, 0.05);
+    transform: scale(1.05);
+  }
+
+  .card-cover {
+    background-color: #007BFF !important;
+  }
+
+
+ 
+
+  .service-icon {
+    height: 50px;
+    width: auto;
+    margin-right: 8px
+  }
+
+#icon-grid h3 {
+    color: #007BFF !important;
+}
+
+.summary-image1 {
+    max-height: 500px;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 100px;
+    background-size: cover
+}
+
+.summary-image2 {
+    max-height: 500px;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 100px;
+    border-top-right-radius: 10px;
+}
+
+.summary-image3 {
+    height: 200px;
+    width: 300px;
+}
+
+.summary-image4 {
+    height: 200px;
+    width: 300px;
+
+}
+
+
+.benefit-icon {
+    height: 40px;
+    width: 50px;
+}
+
+
+/* testimonials */
+
+
+@import "compass/css3";
+
+html {
+  background: #eff0ef;
+}
+
+h1 {
+  font-size: 16px; 
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-quote {
+    font-size: 16px;
+}
+
+.testimonial-quote blockquote {
+    /* Negate theme styles */
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: gray;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px white;
+    z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+    box-sizing: border-box; 
+}
+
+.testimonial-quote blockquote p {
+    color: #75808a; 
+    line-height: 1.4 !important;
+}
+
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: #81bedb;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .3;
+    position: absolute;
+    top: -.4em;
+    left: -.2em;    
+    text-shadow: none;
+    z-index: -300;
+}
+
+.testimonial-quote img {
+    border: 3px solid #9CC1D3;
+    border-radius: 50%;
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: absolute;    
+}
+
+.testimonial-quote cite {
+    color: gray;
+    display: block;
+    font-size: .8em; 
+}
+  
+.testimonial-quote cite span {
+    color: #5e5e5e;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px white; 
+}
+
+.testimonial-quote {
+    position: relative; 
+}
+
+
+
+.testimonial-quote.right img {
+    left: auto;
+    right: 0;
+}
+
+.testimonial-quote.right cite {
+    text-align: right; 
+}
+
+
+.testimonial-quote.left cite {
+    text-align: left; 
+}
+
+.testimonial-quote.left img {
+    left: 0;
+    right: auto;
+}
+
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 550px !important;
+}
+
+.img-test {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding: 3px;
+    overflow: auto;
+}
+
+.platinum-img {
+    object-position: top;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 50px;
+  }
+
+
+
+
+  .signoff {
+    color: black;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+
+.card-img-top {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+#info-header  p{
+    font-size: 1.3rem;
+}
+
+.procedures-hero-double {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto !important;
+}
+
+
+.procedures-hero-double1 {
+    height: auto;
+    width: 350px;
+}
+
+.hero-image {
+    min-height: 30vh;
+    max-height: 60vh;
+    min-width: 100%;
+}
+
+
+
+
+#info-header  p{
+    font-size: 1.3rem;
+}
+
+.procedures-hero-double {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto !important;
+}
+
+
+.procedures-hero-double1 {
+    height: auto;
+    width: 350px;
+}
+
+.hero-image {
+    min-height: 30vh;
+    max-height: 60vh;
+    min-width: 100%;
+}
+
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30%);
+    transition: all 1.5s;
+
+}
+
+.obscure {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 1.5s;
+}
+
+.obscure-card {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 2s;
+}
+
+.hidden-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30%);
+    transition: all 1.5s;
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+    .benefits2-header {
+      font-size: 2rem !important; /* Adjust the font size as needed */
+    }
+  }
