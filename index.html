@@ -155,7 +155,7 @@ which email is this going to?
 - make the buttons better -->
 
 
-<section id="hero-small" class="container-fluid d-sm-block d-md-none p-0 bg-light" style="height: 80vh; background-image: url('assets/img/hero-image-mobile.webp'); background-size: cover; background-position: bottom; background-repeat: norepeat;">
+<section id="hero-small" class="container-fluid d-sm-block d-lg-none p-0 bg-light" style="height: 80vh; background-image: url('assets/img/hero-image-mobile.webp'); background-size: cover; background-position: bottom; background-repeat: norepeat;">
   <div class="row p-0 m-0">
     <h1 class="display-4 fw-bold lh-1 text-start text-dark my-5">
       Your <span class="highlight">Mississauga</span> Family Dentist
@@ -217,7 +217,7 @@ which email is this going to?
 <!-- small quote -->
 
 
-<section id="hero-big" class="container-fluid d-md-block d-none bg-light">
+<section id="hero-big" class="container-fluid d-lg-block d-none bg-light">
   <div class="row d-flex justify-content-between align-items-center" style="height: 70vh; background-image: url('assets/img/hero-image-alt.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="col-4 mx-5">
       <h1 class="display-4 fw-bold lh-1 text-start text-dark my-5 bordered-text">
@@ -238,31 +238,31 @@ which email is this going to?
       </div>
     </div>
     <div class="col-4 mt-5 mx-5">
-      <form name="home_form" class="p-2 p-md-2 border rounded-4 bg-body-tertiary" method="POST" data-netlify="true">
+      <form name="home_form_big" class="p-2 p-md-2 border rounded-4 bg-body-tertiary shadow-lg" method="POST" data-netlify="true" style="width: 100%;">
         <div class="form-floating mb-3">
-          <input name="firstName" type="text" class="form-control" id="floatingInput"  placeholder="name@example.com" required>
-          <label for="floatingInput">First Name</label>
+            <input name="firstName" type="text" class="form-control" id="firstNameInput" placeholder="First Name" required>
+            <label for="firstNameInput">First Name</label>
         </div>
         <div class="form-floating mb-3">
-          <input name="lastName" type="text"  class="form-control" id="floatingInput" placeholder="name@example.com" required>
-          <label for="floatingInput">Last Name</label>
+            <input name="lastName" type="text" class="form-control" id="lastNameInput" placeholder="Last Name" required>
+            <label for="lastNameInput">Last Name</label>
         </div>
         <div class="form-floating mb-3">
-          <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-          <label for="floatingInput">Email address</label>
+            <input name="email" type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+            <label for="emailInput">Email address</label>
         </div>
         <div class="form-floating mb-3">
-          <input name="phoneNumber" type="tel" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
-          <label for="floatingPassword">Phone Number (___) ___-____</label>
+            <input name="phoneNumber" type="text" class="form-control" id="phoneInput" placeholder="Phone Number" required>
+            <label for="phoneInput">Phone Number (___) ___-____</label>
         </div>
         <div class="form-floating mb-3">
-          <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-          <label for="floatingTextarea2">Anything we should know about?</label>
+            <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="commentInput" style="height: 100px"></textarea>
+            <label for="commentInput">Anything we should know about?</label>
         </div>
         <div class="d-flex justify-content-center"> 
-          <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
+            <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
         </div>
-      </form>
+    </form>
     </div>
   </div>
 </section>

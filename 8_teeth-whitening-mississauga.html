@@ -154,31 +154,31 @@ add active -->
     </div>
     <div class="col-sm-12 col-lg-5">
       <!-- create custom form name -->
-      <form name="whitening-form" class="p-4 p-md-4 border rounded-4 bg-body-tertiary shadow" method="POST" data-netlify="true">
-        <div class="form-floating mb-3">
-            <input name="firstName" type="firstName" class="form-control" id="floatingInput"  placeholder="name@example.com" required>
-            <label for="floatingInput">First Name</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input name="lastName" type="lastName"  class="form-control" id="floatingInput" placeholder="name@example.com" required>
-            <label for="floatingInput">Last Name</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-            <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input name="phoneNumber" type="phoneNumber" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
-            <label for="floatingPassword">Phone Number (___) ___-____</label>
-        </div>
-        <div class="form-floating mb-3">
-            <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Anything we should know about?</label>
-        </div>
-        <div class="d-flex justify-content-center"> 
-            <button class="w-50 btn btn-lg btn-primary" type="submit">Submit</button>
-        </div>
-    </form>
+      <form name="whitening-form" class="p-2 p-md-2 border rounded-4 bg-body-tertiary shadow-lg" method="POST" data-netlify="true" style="width: 100%;">
+    <div class="form-floating mb-3">
+        <input name="firstName" type="text" class="form-control" id="firstNameInput" placeholder="First Name" required>
+        <label for="firstNameInput">First Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input name="lastName" type="text" class="form-control" id="lastNameInput" placeholder="Last Name" required>
+        <label for="lastNameInput">Last Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input name="email" type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+        <label for="emailInput">Email address</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input name="phoneNumber" type="text" class="form-control" id="phoneInput" placeholder="Phone Number" required>
+        <label for="phoneInput">Phone Number (___) ___-____</label>
+    </div>
+    <div class="form-floating mb-3">
+        <textarea name="CustomerComment" class="form-control" placeholder="Leave a comment here" id="commentInput" style="height: 100px"></textarea>
+        <label for="commentInput">Anything we should know about?</label>
+    </div>
+    <div class="d-flex justify-content-center"> 
+        <button class="w-100 btn btn-lg btn-primary text-nowrap" type="submit">SUBMIT <i class="bi bi-fast-forward-btn-fill"></i></button>
+    </div>
+</form>
 
 
 
