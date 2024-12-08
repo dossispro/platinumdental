@@ -22,3 +22,18 @@ actuallyhiddenelements.forEach((el) => observer.observe(el));
 
 const reallyhiddenelements = document.querySelectorAll('.obscure-card');
 reallyhiddenelements.forEach((el) => observer.observe(el));
+
+
+document.querySelectorAll('.toggle-text-btn').forEach(button => {
+    button.addEventListener('click', function() {
+        let reviewTextContainer = button.closest('.review-text-container');
+        reviewTextContainer.classList.toggle('expanded');
+        
+        // Optionally change button text when toggled
+        if (reviewTextContainer.classList.contains('expanded')) {
+            button.textContent = 'Read less';
+        } else {
+            button.textContent = 'Read more';
+        }
+    });
+});

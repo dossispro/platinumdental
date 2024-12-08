@@ -124,6 +124,107 @@
   }
 
 
+  /* Google Reviews Widget */
+.google-reviews-widget {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Review Card */
+  .review-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Header Section */
+  .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .reviewer-info {
+    flex: 1;
+  }
+  
+  .reviewer-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .review-rating {
+    color: #FFD700; /* Gold color for stars */
+    font-size: 14px;
+  }
+  
+  /* Review Text */
+  .review-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+
+  
+  
+  /* Review Link */
+  .review-link {
+    font-size: 13px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .review-link:hover {
+    text-decoration: underline;
+  }
+
+  .multi-line-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines before truncating */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.2em * 4); /* Adjust for line height */
+  }
+
+
+  .review-text-container.expanded .multi-line-truncate {
+    display: block; /* Remove truncation when expanded */
+    -webkit-line-clamp: unset;
+    max-height: none;
+    background: transparent !important;
+  }
+  
+  .toggle-text-btn {
+    background: none;
+    border: none;
+    color: #007BFF;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .toggle-text-btn:hover {
+    text-decoration: underline;
+  }
  
 
   .service-icon {
@@ -169,6 +270,18 @@
     width: 50px;
 }
 
+
+/* instutitutions */
+
+.dental-institutions {
+    max-height: 550px;
+}
+
+.dental-institutions img {
+    max-height: 120px !important;
+    max-width: 370px !important;
+
+}
 
 /* testimonials */
 
