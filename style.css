@@ -140,6 +140,7 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
   }
   
   .review-card:hover {
@@ -181,6 +182,14 @@
     font-size: 14px;
     color: #555;
     margin-bottom: 10px;
+  }
+
+.google-icon {
+    position: absolute; /* Position the image relative to the card */
+    top: 10px; /* Adjust to desired position */
+    right: 10px; /* Adjust to desired position */
+    width: 16px; /* Resize the image if necessary */
+    height: 16px;
   }
 
 
